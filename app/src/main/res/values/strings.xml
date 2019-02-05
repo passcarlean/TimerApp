@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pally</string>
+    <!--Category name for numbers-->
+    <string name="Category_numbers">Numbers</string>
+
+    <!--Category name for alphabeths-->
+    <string name="Category_alpha">Alphabeths</string>
+
+    <!--Category name for colors-->
+    <string name="Category_color">Colors</string>
+
+    <!--Category name for phrases-->
+    <string name="Category_phrase">Phrases</string>
+
+    <!--Category name for things-->
+    <string name="Category_things">Things</string>
+</resources>

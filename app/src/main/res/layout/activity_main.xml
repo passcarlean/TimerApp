@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:padding="4dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/tan_Background">
+<TextView
+    android:id="@+id/alpha"
+     style="@style/CategoryStyle"
+    android:text="@string/Category_alpha"
+    android:textColor="#F7F7F2"
+    android:background="@color/category_alpha"/>
+
+
+    <TextView
+        android:id="@+id/num"
+        style="@style/CategoryStyle"
+        android:text="@string/Category_numbers"
+        android:textColor="#F7F7F2"
+        android:background="@color/category_numbers"/>
+
+
+        <TextView
+            android:id="@+id/colors"
+            style="@style/CategoryStyle"
+            android:text="@string/Category_color"
+            android:textColor="#F7F7F2"
+            android:background="@color/category_colors"
+           />
+        <TextView
+            android:id="@+id/phrase"
+            style="@style/CategoryStyle"
+            android:text="@string/Category_phrase"
+            android:textColor="#F7F7F2"
+            android:background="@color/category_phrases"
+        />
+        <TextView
+            android:id="@+id/things"
+            style="@style/CategoryStyle"
+            android:text="@string/Category_things"
+            android:textColor="#F7F7F2"
+            android:background="@color/category_things"
+            />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
